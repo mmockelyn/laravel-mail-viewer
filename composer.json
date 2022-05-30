@@ -1,11 +1,15 @@
 {
-    "name": "joggapp/laravel-mail-viewer",
+    "name": "mmockelyn/laravel-mail-viewer",
     "description": "View all your mailables at a single place",
     "license": "MIT",
     "authors": [
         {
             "name": "Harish Toshniwal",
             "email": "harish@jogg.co"
+        },
+        {
+            "name": "Mockelyn Maxime",
+            "email": "syltheron@gmail.com"
         }
     ],
     "autoload": {
@@ -19,10 +23,10 @@
         }
     },
     "require": {
-        "php": "^7.3",
-        "illuminate/routing": "7.*|8.*",
-        "illuminate/support": "7.*|8.*",
-        "illuminate/database": "7.*|8.*"
+        "php": "^7.3|^8.*",
+        "illuminate/routing": "7.*|8.*|9.*",
+        "illuminate/support": "7.*|8.*|9.*",
+        "illuminate/database": "7.*|8.*|9.*"
     },
     "require-dev": {
         "laravel/legacy-factories": "^1.0.4",
